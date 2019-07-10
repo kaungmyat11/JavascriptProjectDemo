@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: DM Sans;
+}
+
+
+/* ------------ Navigation Bar ------------------- */
+
+header{
+    width: 100%;
+    z-index: 10;
+    height: 100vh;
+    background: url("Image/HeaderBG.jpg") center no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    color: #2C3E50 !important;
+    font-size: 1.8rem !important;
+    padding-left: 38px;
+}
+
+.navbar-brand .fas{
+    font-size: 2rem;
+    font-weight: 600 !important;
+    color: #2C3E50;
+    padding: 10px;
+}
+
+.navbar-nav li{
+    padding: 0px 10px;
+}
+
+.navbar ul li a{
+    float: right;
+    font-weight: 600 !important;
+    font-size: 18px;
+    text-align: center;
+    color: #2C3E50 !important;
+
+}
+
+.navbar ul li a:hover{
+    color: #2B8CFF !important;
+    transition: .5s;
+}
+
+.container h1{
+    color: #2C3E50 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.container span{
+    font-weight: 700;
+}
+
+header .container{
+    display: table;
+    padding: 280px 0 12px 0;
+    /* margin-left: 120px; */
+}
+
+.container p{
+    font-size: 24px;
+    padding: 28px 0 0 0;
+}
+
+header .container a{
+    margin: 16px 0;
+    font-size: 20px;
+}
+
+header .container a:hover{
+    background: transparent;
+    color: #2C3E50 !important;
+    transition: .6s;
+}
+
+/* ------------ How ------------------- */
+#How{
+    padding: 0 0  50px;
+}
+
+/* #How .container{
+    height: 75vh;
+} */
+
+#How .container h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0px 38px;
+}
+
+#How .container h2{
+    font-size: 35px;
+}
+
+#How .container h2 a{
+    margin: 0 20px 0 10px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+#How .container h2 span{
+    font-weight: 600;
+    font-size: 34px;
+}
+
+#How .container h2 .or{
+    font-size: 28px;
+    padding-right: 10px;
+}
+
+.Instruction{
+    padding: 0px 0;
+}
+
+.Instruction h2{
+    padding: 12px 0 0;
+    font-size: 28px;
+}
+
+.Instruction small{
+    font-size: 18px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+/* ------------ Our Main Features ------------------- */
+#Features{
+    padding: 50px 0;
+}
+
+#Features h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+#Features h1::after{
+    content: '';
+    width: 340px;
+    height: 3.5px;
+    margin: 4px auto 0;
+    display: block;
+    background: #2C3E50;
+}
+
+#Features .icon{
+    text-align: center;
+    padding: 25px 0;
+}
+
+/* ------------ Sign up Form ------------------- */
+/* .SignUp{
+    background: url("Image/SignBGFinal.jpg") center no-repeat;
+    background-size: cover;
+} */
+
+/* .active h2::after{
+    content: '';
+    background: #2B8CFF;
+    display: block;
+    margin-top: 6px;
+    width: 105px;
+    height: 3.2px;
+} */
+
+/* .active h2{
+    color: #2B8CFF !important;
+    font-weight: 500 !important;
+}
+
+#Signup h2{
+    color: #2C3E50;
+} */
+
+/* #Signup .text-right h2::after{
+    content: '';
+    background: #2B8CFF;
+    display: block;
+    width: 30px;
+    height: 2px;
+} */
+
+/* #Signup .formclass{
+    margin: 30px 250px;
+    padding: 25px 0;
+    border-radius: 8px 78px 8px 8px;
+    background: transparent;
+    /* background: linear-gradient(45Deg, #00c6ff, #0072ff); 
+} */
+
+/* #Signup, #Signin form{
+    padding: 12px 65px;
+} */
+
+/* #Signup .custom-control{
+    margin-bottom: 12px;
+} */
+
+/* #Signup, #Signin .form-group{
+    padding: 12px 0;
+    margin: 0 0px;
+} */
+
+/* ------------ Sign in Form ------------------- */
+/* #Signin {
+    padding: 50px;
+}
+
+#Signin .BG{
+    background: linear-gradient(45Deg, #00c6ff, #0072ff);
+}
+
+#Signin h2{
+    color: #2C3E50;
+}
+
+#Signin .formclass{
+    padding: 25px 10px;
+    background: transparent;
+} */
+
+
+/* ------------ Sign Up ------------------- */
+
+#SignUp{
+    height: 100vh;
+    width: 100%;
+    background: url("Image/SignUp1980.jpg") center no-repeat;
+    background-size: cover;
+}
+
+#SignIn{
+    height: 100vh;
+    width: 100%;
+    background: url("Image/SignIn1980.jpg") center no-repeat;
+    background-size: cover;    
+}
+
+.Sign .SignUp{
+    margin: 100px 0 0;
+}
+
+.Sign h1{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .8px;
+    color: #ECF0F1 !important;
+}
+
+.Sign form{
+    margin: 34px 0;
+}
+
+.Sign .container:first-of-type{
+    height: 82vh;
+}
+
+.Sign .SignUp .form-group{
+    padding: 8px 0;
+}
+
+.Sign .SignUp .form-group label{
+    color: #ECF0F1 !important;
+}
+
+.Sign .SignUp .form-group small{
+    color: #ECF0F1 !important;
+}
+
+.Sign .SignUp p{
+    color: #ECF0F1 !important;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Sign .SignUp p a{
+    color: #2B8CFF !important;
+}
+
+/* ------------ Sign In ------------------- */
+
+
+
+/* ------------ footer ------------------- */
+footer{
+    padding: 50px 0 14px;
+    background: linear-gradient(65Deg, #000000, #434343);
+}
+
+footer h3, a{
+    color: #ECF0F1 !important;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #2B8CFF !important;
+    transition: .5s;
+}
+
+footer h3{
+    font-weight: 600;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin: 12px 0;
+}
+
+footer a{
+    font-size: 18px;
+}
+
+footer h3::after{
+    content: '';
+    background: #ECF0F1;
+    display: block;
+    margin-top: 6px;
+    width: 105px;
+    height: 3.2px;
+}
+
+.copyright{
+    margin-top: 24px;
+    color: #ECF0F1 !important;
+    font-size: 18px;
+}
+
+.container h6{
+    color: #ECF0F1 !important;
+}
