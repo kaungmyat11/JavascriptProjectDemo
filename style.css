@@ -11,14 +11,14 @@ header{
     width: 100%;
     z-index: 10;
     height: 100vh;
-    background: url("Image/HeaderBG.jpg") center no-repeat;
+    background: url("Image/HeaderBG1980.jpg") center no-repeat;
     background-size: cover;
     top: 0;
 }
 
 .navbar-brand{
     font-weight: 600;
-    color: #2C3E50 !important;
+    /* color: #2C3E50 !important; */
     font-size: 1.8rem !important;
     padding-left: 38px;
 }
@@ -26,7 +26,7 @@ header{
 .navbar-brand .fas{
     font-size: 2rem;
     font-weight: 600 !important;
-    color: #2C3E50;
+    /* color: #2C3E50; */
     padding: 10px;
 }
 
@@ -36,10 +36,11 @@ header{
 
 .navbar ul li a{
     float: right;
-    font-weight: 600 !important;
-    font-size: 18px;
+    font-weight: 500 !important;
+    font-size: 16px;
     text-align: center;
-    color: #2C3E50 !important;
+    letter-spacing: 1px;
+    /* color: #2C3E50 !important; */
 
 }
 
@@ -65,7 +66,7 @@ header .container{
     /* margin-left: 120px; */
 }
 
-.container p{
+header .container p{
     font-size: 24px;
     padding: 28px 0 0 0;
 }
@@ -254,7 +255,7 @@ header .container a:hover{
     font-weight: 600;
     text-align: center;
     letter-spacing: .8px;
-    color: #ECF0F1 !important;
+    color: #2C3E50 !important;
 }
 
 .Sign form{
@@ -266,21 +267,37 @@ header .container a:hover{
 }
 
 .Sign .SignUp .form-group{
-    padding: 8px 0;
+    padding: 0px 0;
 }
 
 .Sign .SignUp .form-group label{
-    color: #ECF0F1 !important;
+    color: #2C3E50 !important;
 }
 
 .Sign .SignUp .form-group small{
-    color: #ECF0F1 !important;
+    color: #2C3E50 !important;
 }
 
-.Sign .SignUp p{
-    color: #ECF0F1 !important;
-    text-align: center;
+.forget a{
+    color: #2C3E50 !important;
     font-size: 18px;
+}
+
+.forget a:hover{
+    color: #2B8CFF !important;
+    text-decoration: none;
+}
+
+/* .Sign .SignUp .form-group a small{
+    float: right;
+    padding: 8px 0;
+} */
+
+.Sign .SignUp p{
+    color: #2C3E50 !important;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 8px;
 }
 
 .Sign .SignUp p a{
@@ -414,12 +431,13 @@ footer h3::after{
     height: 3.2px;
 }
 
-.copyright{
+.copyright h5{
     margin-top: 24px;
     color: #ECF0F1 !important;
     font-size: 18px;
 }
 
 .container h6{
-    color: #ECF0F1 !important;
+    color: #2C3E50 !important;
+    font-size: 18px;
 }
