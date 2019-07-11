@@ -61,7 +61,7 @@ header{
 
 header .container{
     display: table;
-    padding: 280px 0 12px 0;
+    padding: 220px 0 12px 0;
     /* margin-left: 120px; */
 }
 
@@ -229,7 +229,7 @@ header .container a:hover{
 } */
 
 
-/* ------------ Sign Up ------------------- */
+/* ------------ Sign Up & Sign In------------------- */
 
 #SignUp{
     height: 100vh;
@@ -246,7 +246,7 @@ header .container a:hover{
 }
 
 .Sign .SignUp{
-    margin: 100px 0 0;
+    margin: 70px 0 0;
 }
 
 .Sign h1{
@@ -287,9 +287,94 @@ header .container a:hover{
     color: #2B8CFF !important;
 }
 
-/* ------------ Sign In ------------------- */
+/* ------------ Our Team ------------------- */
+#Team{
+    padding: 50px 0;
+}
 
+#Team h1{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
+#Team h3{
+    font-size: 18px;
+    color: #434343 !important;
+    margin-bottom: 24px;
+}
+
+#Team h1::after{
+    content: '';
+    background-color: #2C3E50;
+    width: 180px;
+    height: 3.5px;
+    display: block;
+    margin: 10px auto 25px;
+}
+
+#Team .img-box img{
+    border-radius: 50%;
+}
+
+#Team .profile-pic h2{
+    font-weight: 600;
+    padding: 10px 0 0;
+    font-size: 28px;
+    color: #2B8CFF;
+}
+
+/* #Team .profile-pic .img-box img{
+    filter: grayscale(0);
+}
+
+#Team .profile-pic .img-box img:hover{
+    filter: grayscale(1);
+    cursor: pointer;
+} */
+
+/* #Team .fab{
+    font-size: 100px;
+    color: #2B8CFF;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#Team .img-box ul{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 45px;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+#Team .img-box ul li{
+    padding: 5px;
+    display: inline-block;
+}
+
+#Team .img-box:hover ul{
+    opacity: 1;
+}
+
+#Team .img-box ul, .img-box ul li{
+    transform: 0.5s;
+} */
+
+/* ------------ Privacy Policy ------------------- */
+#privacypolicy{
+    padding: 25px 0;
+}
+#privacypolicy h1{
+    font-weight: 700;
+}
+
+#privacypolicy h2{
+    font-weight: 600;
+}
 
 /* ------------ footer ------------------- */
 footer{
