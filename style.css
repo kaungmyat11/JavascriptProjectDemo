@@ -4,6 +4,24 @@
     font-family: DM Sans;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* ------------ Loading ------------------- */
+/* .loading{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #ECF0F1;
+    display: flex;
+} */
+ 
+
 
 /* ------------ Navigation Bar ------------------- */
 
@@ -102,8 +120,8 @@ header .container a:hover{
 }
 
 #How .container h2 a{
-    margin: 0 20px 0 10px;
-    padding: 12px 28px;
+    margin: 10px 20px 10px 10px;
+    padding: 10px 20px;
     border-radius: 8px;
     font-size: 20px;
 }
@@ -145,6 +163,7 @@ header .container a:hover{
     text-align: center;
     font-weight: 600;
     font-size: 42px;
+    letter-spacing: 1.2px;
     color: #ECF0F1 !important;
     padding-bottom: 10px;
 }
@@ -369,6 +388,11 @@ header .container a:hover{
     margin: 15px ;
 }
 
+#Contact .follow:hover{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
 #Contact .contact-info .fas{
     margin: 10px;
     color: #2C3E50;
@@ -387,15 +411,29 @@ header .container a:hover{
     padding: 50px 0;
 }
 
+#Team .row:first-of-type{
+    padding-top: 25px;
+}
+
 #Team h1{
     text-align: center;
     font-weight: 600;
-    letter-spacing: 1px;
+    font-size: 42px;
+    letter-spacing: 1.2px;
+}
+
+#Team .profile-pic h2{
+    font-weight: 600;
+    padding: 10px 0 0;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #2B8CFF;
 }
 
 #Team h3{
-    font-size: 18px;
-    color: #434343 !important;
+    font-size: 15px;
+    color: #333333 !important;
+    letter-spacing: 1.2px;
     margin-bottom: 24px;
 }
 
@@ -412,12 +450,7 @@ header .container a:hover{
     border-radius: 50%;
 }
 
-#Team .profile-pic h2{
-    font-weight: 600;
-    padding: 10px 0 0;
-    font-size: 28px;
-    color: #2B8CFF;
-}
+
 
 /* #Team .profile-pic .img-box img{
     filter: grayscale(0);
@@ -457,6 +490,52 @@ header .container a:hover{
 
 #Team .img-box ul, .img-box ul li{
     transform: 0.5s;
+} */
+
+/* ------------ FAQ ------------------- */
+#FAQ{
+    padding: 50px 0;
+}
+
+#FAQ h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: 1.2px;
+}
+
+#FAQ h1::after{
+    content: '';
+    background-color: #2C3E50;
+    width: 60px;
+    height: 3.5px;
+    display: block;
+    margin: 10px auto 25px;
+}
+
+#FAQ .accordion{
+    padding: 20px 0 0;
+}
+
+#FAQ .btn-link{
+    color: #2B8CFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#FAQ .btn-link:hover{
+    text-decoration: none;
+}
+
+#FAQ .card-body{
+    text-align: left;
+    padding: 10px 2rem;
+}
+
+
+/* #FAQ .card-header{
+    width: 100%;
 } */
 
 /* ------------ Privacy Policy ------------------- */
