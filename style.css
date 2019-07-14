@@ -165,14 +165,13 @@ header .container a:hover{
     font-size: 42px;
     letter-spacing: 1.2px;
     color: #ECF0F1 !important;
-    padding-bottom: 10px;
 }
 
 #Features h1::after{
     content: '';
     width: 240px;
     height: 3.5px;
-    margin: 20px auto 5px;
+    margin: 10px auto 5px;
     display: block;
     background: #ECF0F1;
 }
@@ -391,6 +390,7 @@ header .container a:hover{
 #Contact .follow:hover{
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    transition: 0.6s;
 }
 
 #Contact .contact-info .fas{
@@ -405,6 +405,10 @@ header .container a:hover{
     color: #2C3E50;
     font-weight: bold;
     font-size: 28px;
+}
+
+::placeholder{
+    color: #333333;
 }
 /* ------------ Our Team ------------------- */
 #Team{
@@ -516,6 +520,7 @@ header .container a:hover{
 #FAQ .accordion{
     padding: 20px 0 0;
 }
+
 
 #FAQ .btn-link{
     color: #2B8CFF;
