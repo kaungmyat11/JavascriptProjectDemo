@@ -566,8 +566,9 @@ header .container a:hover{
     height: auto;
     margin-top: 50px;
     margin-bottom: 25px;
-    width: 50%;
+    width: 35%;
     background: #ECF0F1;
+    border-radius: 12px;
 }
 
 #Verification .verification p{
