@@ -555,6 +555,51 @@ header .container a:hover{
     font-weight: 600;
 }
 
+
+
+/* ------------ Verification ------------------- */
+#Verification{
+    height: 100vh;
+}
+
+#Verification .verification{
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 50%;
+    background: #ECF0F1;
+}
+
+#Verification .verification p{
+    text-align: center;
+    margin: 10px auto;
+}
+
+#Verification .verification form{
+    width: 100%;
+    padding: 15px 20%;
+    margin-bottom: 25px;
+}
+
+#Verification .container .row img{
+    height: 250px;
+    align-content: center;
+    margin: 30px auto;
+}
+
+#Verification .container:last-of-type{
+    margin: 0 auto
+}
+
+#Verification .container h6{
+    text-align: center;
+}
+
+#Verification h2{
+    margin: 0 auto;
+}
+
+
 /* ------------ footer ------------------- */
 footer{
     padding: 50px 0 14px;
