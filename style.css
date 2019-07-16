@@ -154,7 +154,7 @@ header .container a:hover{
 /* ------------ Our Main Features ------------------- */
 #Features{
     padding: 50px 0;
-    background: linear-gradient(45Deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Image/Coffee.jpg") center no-repeat;
+    background: linear-gradient(45Deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Image/features.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
