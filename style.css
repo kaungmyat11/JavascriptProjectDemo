@@ -569,6 +569,7 @@ header .container a:hover{
     width: 35%;
     background: #ECF0F1;
     border-radius: 12px;
+    padding-bottom: 25px;
 }
 
 #Verification .verification p{
@@ -598,8 +599,22 @@ header .container a:hover{
 
 #Verification h2{
     margin: 0 auto;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
 }
 
+#Verification p{
+    font-size: 18px;
+}
+
+/* ------------ Verification Complete ------------------- */
+#Verification .verification .far{
+    font-size: 80px;
+    font-weight: 700;
+    color: #2C3E50;
+    margin: 35px auto;
+}
 
 /* ------------ footer ------------------- */
 footer{
