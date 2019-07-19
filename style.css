@@ -359,7 +359,7 @@ header .container a:hover{
 
 /* ------------ footer ------------------- */
 #Contact{
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 #Contact h1{
@@ -412,7 +412,9 @@ header .container a:hover{
 }
 /* ------------ Our Team ------------------- */
 #Team{
-    padding: 50px 0;
+    padding: 75px 0;
+    background: linear-gradient(45Deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Image/Team.jpg") center no-repeat;
+    background-size: cover;
 }
 
 #Team .row:first-of-type{
@@ -423,7 +425,8 @@ header .container a:hover{
     text-align: center;
     font-weight: 600;
     font-size: 42px;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
+    color: #ECF0F1;
 }
 
 #Team .profile-pic h2{
@@ -436,14 +439,14 @@ header .container a:hover{
 
 #Team h3{
     font-size: 15px;
-    color: #333333 !important;
+    color: #ECF0F1 !important;
     letter-spacing: 1.2px;
     margin-bottom: 24px;
 }
 
 #Team h1::after{
     content: '';
-    background-color: #2C3E50;
+    background-color: #ECF0F1;
     width: 180px;
     height: 3.5px;
     display: block;
@@ -599,13 +602,13 @@ header .container a:hover{
 
 #Verification h2{
     margin: 0 auto;
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: 1.5px;
     font-weight: 600;
 }
 
 #Verification p{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 /* ------------ Verification Complete ------------------- */
