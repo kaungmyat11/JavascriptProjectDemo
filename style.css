@@ -303,6 +303,31 @@ header .container a:hover{
     margin: 70px 0 0;
 }
 
+.Sign .SignUp .input input{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #2C3E50;
+    padding: 12px 0 8px;
+    
+}
+
+.Sign .SignUp .input input:focus ~ p,
+.Sign .SignUp .input input:valid ~ p
+{
+    top: -12px;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+.Sign .SignUp .input input:focus{
+    border-bottom: 2px solid #2B8CFF;
+}
+
 .Sign h1{
     font-size: 45px;
     font-weight: 600;
@@ -321,10 +346,22 @@ header .container a:hover{
 
 .Sign .SignUp .form-group{
     padding: 0px 0;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.Sign .SignUp .form-group p{
+    color: #333333 !important;
+    position: absolute;
+    top: 10px;
+    pointer-events: none;
+    font-size: 20px;
+    left: 0;
+    transition: .5s;
 }
 
 .Sign .SignUp .form-group label{
-    color: #2C3E50 !important;
+    color: #333333 !important;
 }
 
 .Sign .SignUp .form-group small{
@@ -346,14 +383,14 @@ header .container a:hover{
     padding: 8px 0;
 } */
 
-.Sign .SignUp p{
+.Sign .SignUp h6{
     color: #2C3E50 !important;
     text-align: center;
     font-size: 15px;
     padding-top: 8px;
 }
 
-.Sign .SignUp p a{
+.Sign .SignUp h6 a{
     color: #2B8CFF !important;
 }
 
@@ -415,6 +452,7 @@ header .container a:hover{
     padding: 75px 0;
     background: linear-gradient(45Deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Image/Team.jpg") center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #Team .row:first-of-type{
@@ -631,6 +669,10 @@ header .container a:hover{
     color: #2C3E50;
     margin: 35px auto;
 }
+
+
+/* ------------ Modal ------------------- */
+
 
 /* ------------ footer ------------------- */
 footer{
