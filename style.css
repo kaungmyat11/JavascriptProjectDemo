@@ -303,31 +303,6 @@ header .container a:hover{
     margin: 70px 0 0;
 }
 
-.Sign .SignUp .input input{
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: none;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #2C3E50;
-    padding: 12px 0 8px;
-    
-}
-
-.Sign .SignUp .input input:focus ~ p,
-.Sign .SignUp .input input:valid ~ p
-{
-    top: -12px;
-    left: 0;
-    font-size: 14px;
-    font-weight: bold;
-    color: #2C3E50;
-}
-
-.Sign .SignUp .input input:focus{
-    border-bottom: 2px solid #2B8CFF;
-}
-
 .Sign h1{
     font-size: 45px;
     font-weight: 600;
@@ -350,16 +325,6 @@ header .container a:hover{
     position: relative;
 }
 
-.Sign .SignUp .form-group p{
-    color: #333333 !important;
-    position: absolute;
-    top: 10px;
-    pointer-events: none;
-    font-size: 20px;
-    left: 0;
-    transition: .5s;
-}
-
 .Sign .SignUp .form-group label{
     color: #333333 !important;
 }
@@ -378,10 +343,10 @@ header .container a:hover{
     text-decoration: none;
 }
 
-/* .Sign .SignUp .form-group a small{
+.Sign .SignUp .form-group a small{
     float: right;
     padding: 8px 0;
-} */
+}
 
 .Sign .SignUp h6{
     color: #2C3E50 !important;
@@ -392,6 +357,58 @@ header .container a:hover{
 
 .Sign .SignUp h6 a{
     color: #2B8CFF !important;
+}
+
+/* ------------ Main Page ------------------- */
+#main{
+    width: 100%;
+}
+
+#main .row{
+    
+}
+
+#main .container{
+    margin: 0 0;
+}
+
+#main #left-column{
+    height: 100vh;
+    padding: 0 auto;
+}
+
+#main #right-column{
+   
+}
+
+#main .container-fluid .row .col-2{
+    padding-top: 12px;
+}
+
+#main .container-fluid .row .col-2 .nav-item:first-of-type a{
+    font-size: 2rem;
+    border-bottom: 1px solid #ECF0F1;
+}
+
+#main .container-fluid .row .col-2 .nav-item:first-of-type a:hover{
+    cursor: pointer;
+    color: #ECF0F1 !important;
+}
+
+#main .container-fluid .row .col-2 .nav-item a{
+    padding: 18px 0;
+    transition: .5s;
+    font-size: 1.6rem;
+}
+
+#main .container-fluid .row .col-2 .nav-item a:hover{
+    color: #2B8CFF !important;
+    background: transparent;
+}
+
+#main .container-fluid .row .fas{
+    padding: 0 12px 0 0;
+    font-size: 2.5rem;
 }
 
 /* ------------ footer ------------------- */
@@ -494,48 +511,6 @@ header .container a:hover{
 #Team .img-box img{
     border-radius: 50%;
 }
-
-
-
-/* #Team .profile-pic .img-box img{
-    filter: grayscale(0);
-}
-
-#Team .profile-pic .img-box img:hover{
-    filter: grayscale(1);
-    cursor: pointer;
-} */
-
-/* #Team .fab{
-    font-size: 100px;
-    color: #2B8CFF;
-    background: #ffffff;
-    border-radius: 50%;
-    padding: 4px;
-}
-
-#Team .img-box ul{
-    padding: 15px 0;
-    position: absolute;
-    z-index: 2;
-    left: 50%;
-    top: 45px;
-    transform: translateX(-50%);
-    opacity: 0;
-}
-
-#Team .img-box ul li{
-    padding: 5px;
-    display: inline-block;
-}
-
-#Team .img-box:hover ul{
-    opacity: 1;
-}
-
-#Team .img-box ul, .img-box ul li{
-    transform: 0.5s;
-} */
 
 /* ------------ FAQ ------------------- */
 #FAQ{
@@ -718,7 +693,7 @@ footer h3::after{
     font-size: 18px;
 }
 
-.container h6{
+.sign-footer h6{
     color: #2C3E50 !important;
     font-size: 18px;
 }
